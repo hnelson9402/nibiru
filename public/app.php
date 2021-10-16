@@ -50,7 +50,7 @@ if ($view === 'login') {
                         <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="<?php echo UrlBase::urlBase; ?>/user/">Administrar usuario</a>
-                                <!-- <a class="nav-link" href="<?php echo UrlBase::urlBase; ?>/adminuser/">Administrar usuario</a> -->
+                                <a class="nav-link" href="<?php echo UrlBase::urlBase; ?>/product/">Administrar producto</a>
                             </nav>
                         </div>
 
@@ -94,6 +94,7 @@ if ($view === 'login') {
     </div>
 
     <script src="<?php echo UrlBase::urlBase;?>/public/libs/bootstrap5/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo UrlBase::urlBase;?>/public/libs/sweetalert/sweetalert.min.js"></script>
     <script src="<?php echo UrlBase::urlBase;?>/public/js/scripts.js" type="module"></script>
 
     <!--Cambiar script dinamicamente-->

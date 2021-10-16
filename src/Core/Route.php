@@ -9,7 +9,7 @@ class Route {
         if (isset($_GET['route'])) {
 
             $params = explode('/',$_GET['route']);
-            $list   = ['main','user'];
+            $list   = ['main','user','product'];
     
             if (in_array($params[0] , $list)) {
                 $file = "./src/Pages/{$params[0]}/{$params[0]}.php";

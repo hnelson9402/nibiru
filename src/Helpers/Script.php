@@ -26,16 +26,9 @@ class Script
                 echo "<script src='" . UrlBase::urlBase. "/public/libs/jquery/jquery-3.6.0.min.js'></script>";
                 self::scriptDatatable();
                 echo "<script src='" . UrlBase::urlBase. "/src/Pages/user/user.js' type='module'></script>";
-            } //else if ($route[0] == "group") {
-            //     //self::scriptDatatable();
-            //     echo "<script src='" . UrlBase::urlBase. "Views/group/group.js'></script>";
-            // } else if ($route[0] == "product") {
-            //     //self::scriptDatatable();
-            //     echo "<script src='" . UrlBase::urlBase. "Views/product/product.js'></script>";
-            // } else if ($route[0] == "history") {
-            //     //self::scriptDatatable();
-            //     echo "<script src='" . UrlBase::urlBase. "Views/history/history.js'></script>";
-            // }
+            } else if ($params[0] == "product") {                
+                echo "<script src='" . UrlBase::urlBase. "/src/Pages/product/product.js' type='module'></script>";
+            }
         }
     }
 }
