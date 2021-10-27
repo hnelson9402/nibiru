@@ -13,7 +13,9 @@ class Script
         echo "<script src='" .UrlBase::urlBase. "/public/libs/datatables/datatables.min.js'></script>";
         echo "<script src='" .UrlBase::urlBase. "/public/libs/datatables/dataTables.buttons.js'></script>";
         echo "<script src='" .UrlBase::urlBase. "/public/libs/datatables/jszip.min.js'></script>";       
-        echo "<script src='" .UrlBase::urlBase. "/public/libs/datatables/buttons.html5.min.js'></script>";                     
+        echo "<script src='" .UrlBase::urlBase. "/public/libs/datatables/buttons.html5.min.js'></script>";      
+        echo "<script src='" .UrlBase::urlBase. "/public/libs/datatables/dataTables.responsive.min.js'></script>";   
+        echo "<script src='" .UrlBase::urlBase. "/public/libs/datatables/responsive.bootstrap.min.js'></script>";                  
     }
 
     /**************************************Cambiar script dinamicamente*******************************/

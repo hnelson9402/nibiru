@@ -25,7 +25,7 @@ if ($view === 'login') {
     <title>Dashboard</title>
     <link href="<?php echo UrlBase::urlBase;?>/public/css/styles.css" rel="stylesheet" />
     <link href="<?php echo UrlBase::urlBase;?>/public/css/mdb.min.css" rel="stylesheet" />
-    <script src="<?php echo UrlBase::urlBase;?>/public/libs/fontawesome/all.min.js"></script>
+    <link href="<?php echo UrlBase::urlBase;?>/public/libs/datatables/responsive.bootstrap.min.css" rel="stylesheet" />      
 </head>
 
 <body class="sb-nav-fixed">
@@ -95,6 +95,7 @@ if ($view === 'login') {
 
     <script src="<?php echo UrlBase::urlBase;?>/public/libs/bootstrap5/bootstrap.bundle.min.js"></script>
     <script src="<?php echo UrlBase::urlBase;?>/public/libs/sweetalert/sweetalert.min.js"></script>
+    <script src="<?php echo UrlBase::urlBase;?>/public/libs/fontawesome/all.min.js"></script>  
     <script src="<?php echo UrlBase::urlBase;?>/public/js/scripts.js" type="module"></script>
 
     <!--Cambiar script dinamicamente-->
